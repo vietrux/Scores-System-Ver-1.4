@@ -60,7 +60,7 @@
       <div class="mb-4 mr-8">
         <button
         type="button"
-        class="bg-indigo-400 hover:bg-indigo-700 text-white font-bold py-1.5 px-4 rounded dark:bg-indigo-900"
+        class="bg-indigo-600 hover:bg-indigo-900 text-white font-bold py-1.5 px-4 rounded"
         v-on:click="handleSearchv3"
       >
         Tra cứu
@@ -169,6 +169,7 @@
           if(!this.formData.week)
           {
               try {
+                const reswek = await axios.get(API_PATH + 'weeknum')
                 const res = await axios.get(API_PATH + 'searchh',{
                   params: {
                   ...this.formData
@@ -203,7 +204,7 @@
                           }
                         })
                       })
-                      total +=200;
+                      total += reswek.data*100;
                       pushObject[pushObject.length - 1] = total;
                       dataSource.push(pushObject);
                       this.dataSource = dataSource;
@@ -237,7 +238,7 @@
                       total -= point;
                     };
                   });
-                  total +=100;
+                  total += 100;
                   res.data.point.push(total);
                   this.dataSource= res.data;
               } catch (error) {

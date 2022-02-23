@@ -3,7 +3,9 @@ var router = express.Router();
 var CONSTANT = require("../utils/constant");
 /* GET home page. */
 router.get("/login", function (req, res, next) {
-  res.render("login", {});
+  res.render("login", {
+    title: "Đăng nhập",
+  });
 });
 
 router.get("/", function (req, res, next) {

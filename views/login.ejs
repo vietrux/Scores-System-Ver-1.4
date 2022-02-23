@@ -2,15 +2,17 @@
 <html>
   <head>
     <% include lib.ejs %>
+    <title><%- title%></title>
   </head>
-  <body>
+  <body class="dark:bg-gray-900">
+  <% include nav-bar.ejs %>
     <link
       rel="stylesheet"
       href="https://kit-pro.fontawesome.com/releases/v5.15.1/css/pro.min.css"
     />
 
     <div
-      class="min-h-screen flex flex-col items-center justify-center bg-gray-300"
+      class="min-h-screen flex flex-col items-center justify-center bg-gray-300 dark:bg-gray-900"
       id="login-app"
     >
       <div
@@ -120,8 +122,9 @@
           </form>
         </div>
       </div>
-    </div>
+    </div><% include footer.ejs %>
   </body>
+  <% include scripts.ejs %>
   <script>
     const API_PATH = "<%= process.env.API_PATH %>";
     var app = new Vue({

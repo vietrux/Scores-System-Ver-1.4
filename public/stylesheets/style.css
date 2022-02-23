@@ -821,6 +821,10 @@ input[type=file]::file-selector-button:hover {
   display: block;
 }
 
+.inline {
+  display: inline;
+}
+
 .flex {
   display: flex;
 }
@@ -984,9 +988,9 @@ input[type=file]::file-selector-button:hover {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-indigo-400 {
+.bg-indigo-600 {
   --tw-bg-opacity: 1;
-  background-color: rgb(141 162 251 / var(--tw-bg-opacity));
+  background-color: rgb(88 80 236 / var(--tw-bg-opacity));
 }
 
 .bg-pink-700 {
@@ -1249,9 +1253,9 @@ input[type=file]::file-selector-button:hover {
   transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
 }
 
-.hover\:bg-indigo-700:hover {
+.hover\:bg-indigo-900:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(81 69 205 / var(--tw-bg-opacity));
+  background-color: rgb(54 47 120 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-pink-900:hover {
@@ -1334,11 +1338,6 @@ input[type=file]::file-selector-button:hover {
 .dark .dark\:bg-gray-800 {
   --tw-bg-opacity: 1;
   background-color: rgb(31 41 55 / var(--tw-bg-opacity));
-}
-
-.dark .dark\:bg-indigo-900 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(54 47 120 / var(--tw-bg-opacity));
 }
 
 .dark .dark\:bg-gray-700 {

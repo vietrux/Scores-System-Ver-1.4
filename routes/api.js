@@ -3,6 +3,7 @@ const authService = require("../service/authService");
 const studentService = require("../service/studentService");
 const router = express.Router();
 const auth = require("../middleware/auth");
+const weeknum = 2;
 
 router.get("/", function (req, res, next) {
   res.send("Hello world");
@@ -25,6 +26,17 @@ router.post("/login", async function (req, res, next) {
 router.get("/search", async function (req, res, next) {
   try {
     const data = await studentService.searchOneStudentOneWeek(req.query);
+    res.status(200).json(data);
+  } catch (error) {
+    res.status(400).json({
+      error: error,
+    });
+  }
+});
+
+router.get("/weeknum", async function (req, res, next) {
+  try {
+    const data = weeknum;
     res.status(200).json(data);
   } catch (error) {
     res.status(400).json({
