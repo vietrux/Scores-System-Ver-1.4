@@ -1,6 +1,9 @@
 # Hệ thống điểm ý thức (version: 1.4)
 
-Đây là dự án mini của VietTrung. Dùng để nhập, sửa, xóa và hiển thị bảng điểm ý thức của lớp 
+Đây là dự án mini của VietTrung. Dùng để nhập, sửa, xóa và hiển thị bảng điểm ý thức của lớp.
+
+## Demo
+LINK: ***[https://pointsystem.herokuapp.com](https://pointsystem.herokuapp.com/)***
 
 ## Phiên bản 1.4 có gì hay?
 
