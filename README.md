@@ -11,10 +11,10 @@
 ## Công nghệ
 
 - Front-end:
-  - [EJS](https://github.com/mde/ejs), [Tailwind](https://github.com/tailwindlabs/tailwindcss)
+  - [EJS](https://github.com/mde/ejs), [Tailwind](https://github.com/tailwindlabs/tailwindcss), [Flowbite](https://github.com/themesberg/flowbite)
 - Back-end:
-  - [Nodejs](https://github.com/nodejs), [Express](https://github.com/expressjs/express)
-  - [Mongodb](https://github.com/mongodb)
+  - [Express](https://github.com/expressjs/express), [Mongoose](https://github.com/Automattic/mongoose)
+  - Database: [Mongodb](https://github.com/mongodb)
   
 
 # Cài đặt
