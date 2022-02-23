@@ -29,6 +29,8 @@ hoặc chạy bằng nodemon:
 ```
 yarn dev
 ```
+Đường dẫn mặc định là: http://localhost:9001
+
 Thay đổi **API_PATH** và **MONGO_URL** trong `.env` để dự án hoạt động bình thường.
 - API_PATH: là đường đẫn API, hãy thay thay thế http://localhost:9001 bằng URL trang web của bạn
 - MONGO_URL: là đường dẫn tới cơ sở dữ liệu của bạn, lấy MONGO_URL tại [mongodb.com](https://www.mongodb.com/)
