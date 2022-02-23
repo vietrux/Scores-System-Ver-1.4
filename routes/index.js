@@ -1,13 +1,15 @@
 var express = require("express");
 var router = express.Router();
 var CONSTANT = require("../utils/constant");
-/* GET home page. */
+
+/* GET login page. */
 router.get("/login", function (req, res, next) {
   res.render("login", {
     title: "Đăng nhập",
   });
 });
 
+/* GET home page. */
 router.get("/", function (req, res, next) {
   res.render("index", {
     WEEKDAY_COLUMNS: CONSTANT.WEEKDAY_COLUMNS,
@@ -18,6 +20,7 @@ router.get("/", function (req, res, next) {
   });
 });
 
+/* GET total page. */
 router.get("/view-total", function (req, res, next) {
   res.render("total", {
     WEEKDAY_COLUMNS: CONSTANT.WEEKDAY_COLUMNS,
