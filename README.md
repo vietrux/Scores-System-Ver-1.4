@@ -34,12 +34,12 @@ yarn dev
 ```
 Đường dẫn mặc định là: http://localhost:9001
 
-Thay đổi **API_PATH** và **MONGO_URL** trong `.env` để dự án hoạt động bình thường.
+Thay đổi **API_PATH** và **MONGO_URL** trong **[.env](https://github.com/vietrux/Point-System-Ver-1.4/blob/main/.env)** để dự án hoạt động bình thường.
 - API_PATH: là đường đẫn API, hãy thay thay thế http://localhost:9001 bằng URL trang web của bạn
 - MONGO_URL: là đường dẫn tới cơ sở dữ liệu của bạn, lấy MONGO_URL tại [mongodb.com](https://www.mongodb.com/)
 
-Thay đổi **ADMIN_PASSWORD** trong `.env` thay đổi mật khẩu của quản trị viên.
+Thay đổi **ADMIN_PASSWORD** trong **[.env](https://github.com/vietrux/Point-System-Ver-1.4/blob/main/.env)** thay đổi mật khẩu của quản trị viên.
 
-Cấu trúc json nằm trong thư mục `utils`
+Cấu trúc **database** nằm trong thư mục **[utils](https://github.com/vietrux/Point-System-Ver-1.4/tree/main/utils)**
 
 ## Have good day!
