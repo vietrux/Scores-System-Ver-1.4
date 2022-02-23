@@ -23,14 +23,14 @@ LINK: ***[https://pointsystem.herokuapp.com](https://pointsystem.herokuapp.com/)
 ## Cài đặt
 
 Để chạy dự án này, hãy cài đặt nó cục bộ bằng cách sử dụng yarn (hoặc npm):
-
+- cài đặt:
 ```
 yarn install
-yarn start
 ```
-hoặc chạy bằng *nodemon*:
+- khởi động dự án:
 ```
-yarn dev
+yarn start 
+yarn dev  #chạy bằng nodemon (nếu bạn muốn vọc vạch thêm)
 ```
 Đường dẫn mặc định là: ***[http://localhost:9001](http://localhost:9001)*** (***[http://127.0.0.1:9001](http://127.0.0.1:9001)***)
 
