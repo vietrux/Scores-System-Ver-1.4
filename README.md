@@ -22,7 +22,7 @@ LINK: ***[https://pointsystem.herokuapp.com](https://pointsystem.herokuapp.com/)
 
 ## Cài đặt
 
-Để chạy dự án này, hãy cài đặt nó cục bộ bằng cách sử dụng npm (hoặc yarn):
+Để chạy dự án này, hãy cài đặt nó cục bộ bằng cách sử dụng yarn (hoặc npm):
 
 ```
 yarn install
