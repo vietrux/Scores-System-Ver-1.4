@@ -15,4 +15,4 @@ const StudentSchema = new mongoose.Schema({
   },
 });
 
-module.exports = mongoose.model("thuys", StudentSchema);
+module.exports = mongoose.model("points", StudentSchema);
