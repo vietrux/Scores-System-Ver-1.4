@@ -6,7 +6,7 @@ const auth = require("../middleware/auth");
 const weeknum = 2;
 
 router.get("/", function (req, res, next) {
-  res.send("Hello world");
+  res.send("Xin chào, đây là hệ thống API của trang web!");
 });
 
 router.post("/login", async function (req, res, next) {
