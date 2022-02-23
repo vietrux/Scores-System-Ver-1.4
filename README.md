@@ -2,6 +2,12 @@
 
 Đây là dự án mini của VietTrung. Dùng để nhập, sửa, xóa và hiển thị bảng điểm ý thức của lớp 
 
+## Phiên bản 1.4 có gì hay?
+
+- Update giao diện cực mạnh! 
+- Fix lỗi Menu chính bị khuất khi ở chế độ di động
+- Thêm chế độ dark-mode 
+
 ## Công nghệ
 
 - Front-end:
