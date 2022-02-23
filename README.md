@@ -1,17 +1,40 @@
 # Hệ thống điểm ý thức (version: 1.4)
 
+[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://opensource.org/licenses/GPL-3.0)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/vietrux/Point-System-Ver-1.4)
+
+**(Point-System-Ver-1.4)**
+
 Đây là dự án mini của VietTrung. Dùng để nhập, sửa, xóa và hiển thị bảng điểm ý thức của lớp.
+
+## Mục lục
+- [Demo](#demo)
+- [Sơ lược tính năng](#sơ-lược-tính-năng)
+- [Phiên bản 1.4 có gì mới?](#phiên-bản-14-có-gì-mới)
+- [Framework, thư viện,...](#framework-thư-viện)
+- [Cài đặt](#cài-đặt)
+- [Báo lỗi](#báo-lỗi)
+- [Giấy phép](#giấy-phép)
 
 ## Demo
 LINK: ***[https://pointsystem.herokuapp.com](https://pointsystem.herokuapp.com/)***
 
-## Phiên bản 1.4 có gì hay?
+## Sơ lược tính năng
+Hệ thống báo gồm các tính năng:
+- Tạo, sửa, xóa thông tin học sinh, tuần học
+- Tạo, sửa, xóa điểm điểm các tuần
+- Hiển thị điểm học sinh từng tuần
+- Hiển thị tổng điểm của một học sinh các tuần
+- Hiển thị bảng điểm của cả lớp 
+- Thay đôỉ giao diện sáng tối
+
+## Phiên bản 1.4 có gì mới
 
 - Update giao diện cực mạnh! 
 - Fix lỗi Menu chính bị khuất khi ở chế độ di động
 - Thêm chế độ dark-mode 
 
-## Công nghệ
+## Framework, thư viện,...
 
 - Front-end:
   - [EJS](https://github.com/mde/ejs), [Tailwind](https://github.com/tailwindlabs/tailwindcss), [Flowbite](https://github.com/themesberg/flowbite)
@@ -42,9 +65,10 @@ Thay đổi **ADMIN_PASSWORD** trong **[.env](https://github.com/vietrux/Point-S
 
 Cấu trúc **database** nằm trong thư mục **[utils](https://github.com/vietrux/Point-System-Ver-1.4/tree/main/utils)**
 
-## Bonus (cho thầy cô)
+**Bonus (cho thầy cô)**: Thay đổi số tuần đã trải qua tại [API.JS](https://github.com/vietrux/Point-System-Ver-1.4/blob/main/routes/api.js)
 
+## Báo lỗi
+Nếu có phát sinh lỗi hay bất kì vấn đề gì vui lòng [báo lỗi tại đây](https://github.com/vietrux/Point-System-Ver-1.4/issues)
 
-Thay đổi số tuần đã trải qua tại [API.JS](https://github.com/vietrux/Point-System-Ver-1.4/blob/main/routes/api.js)
-
-## Have good day!
+## Giấy phép
+PointSystemVer1.4 là trang web tự do nguồn mở. Toàn bộ mã nguồn của PointSystemVer1.4 được phát hành dưới các quy định ghi trong Giấy phép Công cộng GNU (GNU General Public License v3.0).
