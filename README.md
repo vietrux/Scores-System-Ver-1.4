@@ -28,7 +28,7 @@ LINK: ***[https://pointsystem.herokuapp.com](https://pointsystem.herokuapp.com/)
 yarn install
 yarn start
 ```
-hoặc chạy bằng nodemon:
+hoặc chạy bằng *nodemon*:
 ```
 yarn dev
 ```
