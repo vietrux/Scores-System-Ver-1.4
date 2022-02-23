@@ -426,27 +426,6 @@ const CONSTANT = {
       id: "59",
       name: "Tuần 59",
     },
-    {
-      id: "60",
-      name: "Tuần 60",
-    },
-    {
-      id: "61",
-      name: "Tuần 61",
-    },
-    {
-      id: "62",
-      name: "Tuần 62",
-    },
-    {
-      id: "63",
-      name: "Tuần 63",
-    },
-    {
-      id: "64",
-      name: "Tuần 64",
-    },
-    
   ],
 };
 
