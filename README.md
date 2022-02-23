@@ -21,8 +21,9 @@ LINK: ***[https://pointsystem.herokuapp.com](https://pointsystem.herokuapp.com/)
 
 ## Sơ lược tính năng
 Hệ thống báo gồm các tính năng:
-- Tạo, sửa, xóa thông tin học sinh, tuần học
-- Tạo, sửa, xóa điểm điểm các tuần
+- Cho phép đăng nhập để:
+  - Tạo, sửa, xóa thông tin học sinh, tuần học
+  - Tạo, sửa, xóa điểm điểm các tuần
 - Hiển thị điểm học sinh từng tuần
 - Hiển thị tổng điểm của một học sinh các tuần
 - Hiển thị bảng điểm của cả lớp 
