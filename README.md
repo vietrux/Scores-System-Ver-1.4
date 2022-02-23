@@ -42,4 +42,8 @@ Thay đổi **ADMIN_PASSWORD** trong **[.env](https://github.com/vietrux/Point-S
 
 Cấu trúc **database** nằm trong thư mục **[utils](https://github.com/vietrux/Point-System-Ver-1.4/tree/main/utils)**
 
+# Bonus
+
+Thay đổi số tuần đã trải qua tại [API.JS](https://github.com/vietrux/Point-System-Ver-1.4/blob/main/routes/api.js)
+
 ## Have good day!
