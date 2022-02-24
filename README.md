@@ -56,6 +56,7 @@ yarn install
 yarn start 
 yarn dev  #chạy bằng nodemon (nếu bạn muốn vọc vạch thêm)
 ```
+### Lưu ý!
 Đường dẫn mặc định là: ***[http://localhost:9001](http://localhost:9001)*** (***[http://127.0.0.1:9001](http://127.0.0.1:9001)***)
 
 Thay đổi **API_PATH** và **MONGO_URL** trong **[.env](https://github.com/vietrux/Point-System-Ver-1.4/blob/main/.env)** để dự án hoạt động bình thường.
