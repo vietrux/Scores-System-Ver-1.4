@@ -54,7 +54,8 @@ yarn install
 - khởi động dự án:
 ```
 yarn start 
-yarn dev  #chạy bằng nodemon (nếu bạn muốn vọc vạch thêm)
+# hoặc
+yarn dev  
 ```
 ### Lưu ý!
 Đường dẫn mặc định là: *[http://localhost:9001](http://localhost:9001)* (*[http://127.0.0.1:9001](http://127.0.0.1:9001)*)
