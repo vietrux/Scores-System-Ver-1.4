@@ -20,7 +20,7 @@ This is a mini project of Viet Trung. Used to import, edit, delete and display t
 LINK: *[https://pointsystem.herokuapp.com](https://pointsystem.herokuapp.com/)*
 
 ## Feature summary
-The alarm system includes the following features:
+The system includes the following features:
 - Allow login to:
   - Create, edit, delete student information, week
   - Create, edit, delete weekly points
