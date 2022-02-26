@@ -68,7 +68,7 @@ Change **ADMIN_PASSWORD** in **[.env](https://github.com/vietrux/Point-System-Ve
 
 The **database structure** is located in the **[utils](https://github.com/vietrux/Point-System-Ver-1.4/tree/main/utils) directory**
 
-**Bonus (for teachers)**: Change the number of weeks exist at [API.JS](https://github.com/vietrux/Point-System-Ver-1.4/blob/main/routes/api .js)
+**Bonus (for teachers)**: Change the number of weeks exist at [API.JS](https://github.com/vietrux/Point-System-Ver-1.4/blob/main/routes/api.js)
 
 ## Report an error
 If there is an error or any problem, please [report an error here](https://github.com/vietrux/Point-System-Ver-1.4/issues)
