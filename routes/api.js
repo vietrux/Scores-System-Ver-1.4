@@ -3,7 +3,7 @@ const authService = require("../service/authService");
 const studentService = require("../service/studentService");
 const router = express.Router();
 const auth = require("../middleware/auth");
-const weeknum = 2;
+const weeknum = 3;
 
 router.get("/", function (req, res, next) {
   res.send("Xin chào, đây là hệ thống API của trang web!");
