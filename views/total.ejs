@@ -100,6 +100,7 @@
       },
       async  handleGetAllDetail (){
         try {
+          const reswek = await axios.get(API_PATH + 'weeknum');
           const res = await axios.get(API_PATH + 'get-all',null);
           let dataSource = [];
           ALL_STUDENTS.forEach(student=>{
@@ -131,7 +132,7 @@
                     }
                   })
                 })
-                total +=200;
+                total += reswek.data*100;
                 pushObject[pushObject.length - 1] = total;
               dataSource.push(pushObject);
           })
