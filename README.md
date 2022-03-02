@@ -57,7 +57,7 @@ yarn start
 # or
 yarn developer
 ```
-### Note!
+### Notice!
 The default path is: *[http://localhost:9001](http://localhost:9001)* (*[http://127.0.0.1:9001](http://127.0.0.1:9001) *)
 
 Change **API_PATH** and **MONGO_URL** in **[.env](https://github.com/vietrux/Point-System-Ver-1.4/blob/main/.env)** in order to run the project normally.
