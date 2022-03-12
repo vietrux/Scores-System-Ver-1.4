@@ -271,10 +271,6 @@ const CONSTANT = {
   ],
   ALL_WEEKS: [
     {
-      id: null,
-      name: "Tổng các tuần",
-    },
-    {
       id: "22",
       name: "Tuần 22",
     },
