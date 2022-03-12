@@ -137,7 +137,10 @@
         error: null,
         success: null,
         listAllStudent: ALL_STUDENTS,
-        listAllWeek: ALL_WEEKS,
+        listAllWeek: [{
+          id: null,
+          name: "Tổng các tuần",
+        }, ...ALL_WEEKS],
         evaluateColums: [...EVALUATE_COLUMNS, {
           label: "Tổng",
           value: '17'
