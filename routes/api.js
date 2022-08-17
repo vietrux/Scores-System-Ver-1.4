@@ -4,16 +4,6 @@ const studentService = require("../service/studentService");
 const router = express.Router();
 const auth = require("../middleware/auth");
 
-var today = new Date();
-// đếm số tuần giữa 2 ngày
-function countWeeks(date1, date2) {
-    var oneDay = 24 * 60 * 60 * 1000; // hours*minutes*seconds*milliseconds
-    var firstDate = new Date(date1);
-    var secondDate = new Date(date2);
-
-    return Math.round(Math.abs((firstDate.getTime() - secondDate.getTime()) / (oneDay * 7)));
-}
-const weeknum = countWeeks('2022-02-07', today);
 
 router.get("/", function (req, res, next) {
   res.send("Xin chào, đây là hệ thống API của trang web!");
